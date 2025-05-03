@@ -1,2 +1,0 @@
-# LMSFrontEnd
-Library Managament System
