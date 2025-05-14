@@ -1,0 +1,24 @@
+﻿using CleanArchitecture.Core.Enums;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CleanArchitecture.Core.DTOs.Book
+{
+    public class BookSearchDto
+    {
+        public string ISBN { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Description { get; set; }
+        public string Genre { get; set; }
+        public DateTime PublishedAfter { get; set; }
+        public DateTime PublishedBefore { get; set; }
+        public int MinCopies { get; set; }
+        public int MaxCopies { get; set; }
+        public BookStatus Status { get; set; }
+    }
+
+}
